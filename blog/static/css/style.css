@@ -1,0 +1,6 @@
+@import '../fonts/amatic/stylesheet.css';
+
+h1 a {
+    color: #FCA205;
+    font-family: amatic_scregular;
+}
