@@ -12,6 +12,9 @@
 <body>
 
 	<div class="page-header">
+			{% if user.is_authenticated %}
+			    <a href="{% url "post_new" %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+			{% endif %}
 	    <h1><a href="/">Welcome to DougInk</a></h1>
 	    <h2>The pen and ink art of Doug Haghan</h2>
 	</div>
