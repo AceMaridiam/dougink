@@ -29,7 +29,7 @@
 						</h1>
 						<!-- /post title -->
 
-						<?php include('inc/tools.php'); ?>
+						<div class="row" id="tools"><?php include('inc/tools.php'); ?></div>
 
 					</div>
 
